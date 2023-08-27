@@ -47,8 +47,6 @@ body {
 }
 
 #card button {
-    background-color: cadetblue;
-    color: darkblue;
     font-weight: 700;
     padding: 12px 20px;
     border-radius: 5px;
@@ -57,7 +55,12 @@ body {
     margin: 10px 5px;
 }
 
-#card #remove {
+#card .add {
+    background-color: cadetblue;
+    color: darkblue;
+}
+
+#card .remove {
     background-color: #dadada;
     color: #121212;
 }
