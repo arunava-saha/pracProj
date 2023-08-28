@@ -19,11 +19,13 @@ body {
 }
 
 #card {
-    height: 440px;
-    width: 330px;
+    height: 480px;
+    width: 300px;
     background-color: #f1f1f1;
-    border-radius: 10px;
+    border-radius: 15px;
+    overflow: hidden;
     border: 3px solid #111;
+    position: relative;
 }
 
 #story_container {
@@ -47,6 +49,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
+    margin-left: 3px;
 }
 
 .story img {
@@ -55,4 +58,13 @@ body {
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
+}
+
+#fullScreen {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
 }
