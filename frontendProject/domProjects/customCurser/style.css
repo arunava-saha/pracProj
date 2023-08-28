@@ -27,6 +27,8 @@ body {
     background-color: #eee111;
     border-radius: 50%;
     position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0.2s;
 }
 
 h1 {
